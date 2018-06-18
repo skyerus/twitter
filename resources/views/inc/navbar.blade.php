@@ -8,7 +8,7 @@
     <div class="container">
         <a class="navbar-brand" href="#">Twitter</a>
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
                 </li>
@@ -17,6 +17,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/services">Services</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="/posts">Tweets</a>
+                </li>                
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                        <a class="nav-link" href="/posts/create">Create a tweet</a>
                 </li>
             </ul>
         </div>
