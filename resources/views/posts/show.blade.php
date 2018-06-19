@@ -7,5 +7,16 @@
         {{$post->body}}
     </div>
     <hr>
-    <small>Tweeted on {{$post->created_at}}</small>
+    <small>Tweeted on {{$post->created_at}} by {{$post->user->name}}</small>
+    <hr>
+    {{-- If not a guest --}}
+    @if(!Auth::guest())
+        @if(Auth::user()->id == $post->user_id)
+            <a href="/posts/{{$post->id}}/edit" class="btn btn-outline-secondary">Edit tweet</a>
+            {!!Form::open(['action'=>['PostsController@destroy',$post->id],'method'=>'POST','class'=>'float-right']) !!}
+                {{Form::hidden('_method','DELETE')}}
+                {{Form::submit('Delete',['class'=>'btn btn-danger'])}}
+            {!! Form::close() !!}
+        @endif
+    @endif
 @endsection
