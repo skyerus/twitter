@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title"><a href="posts/{{$post->id}}">{{$post->title}}</a></h3>
-                    <small>Tweeted on {{$post->created_at}}</small>
+                    <small>Tweeted on {{$post->created_at}} by {{$post->user->name}}</small>
                 </div>
             </div>
         @endforeach
