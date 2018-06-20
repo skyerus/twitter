@@ -4,6 +4,22 @@ I've used various Laravel tutorials to guide me towards getting the foundations 
 
 ---
 
+![Twitter](public/screenshots/twitter_1.png "Home")
+
+---
+
+![Twitter](public/screenshots/twitter_2.png "View all tweets")
+
+---
+
+![Twitter](public/screenshots/twitter_3.png "Tweets table")
+
+---
+
+![Twitter](public/screenshots/twitter_4.png "Register")
+
+---
+
 ## Getting Started
 
 I use the [XAMPP](https://www.apachefriends.org/index.html) stack to develop & test this project locally.
