@@ -1,6 +1,6 @@
 # Twitter copy
 
-I've used various Laravel tutorials to guide me towards getting the foundations for this project down. I'm using Bootstrap 4 to style my page.
+I've used various Laravel tutorials to guide me towards getting the foundations for this project down. I'm using Bootstrap 4 to style my pages.
 
 ---
 
@@ -23,7 +23,7 @@ I've used various Laravel tutorials to guide me towards getting the foundations 
 ## Getting Started
 
 I use the [XAMPP](https://www.apachefriends.org/index.html) stack to develop & test this project locally.
-I installed [Laravel](https://laravel.com/) and  using [Composer](https://getcomposer.org/).
+I installed [Laravel](https://laravel.com/) using [Composer](https://getcomposer.org/).
 
 ---
 
